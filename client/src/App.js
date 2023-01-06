@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<Join />} />
-        <Route path="/chat" element={<Chat />} />
+        <Route path="/chat" exact element={<Chat />} />
       </Routes>
     </BrowserRouter>
   );
